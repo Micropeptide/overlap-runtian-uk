@@ -57,6 +57,8 @@ export async function renderPrivacy(main) {
       h('p', null, `Overlap does not encrypt poll contents in its database, and responses are not anonymous: anyone you give the guest link to may see names and times. ${cloudflare ? 'This copy is only reachable over HTTPS, so connections are encrypted in transit.' : 'Connections are encrypted only when this copy of Overlap is served over HTTPS.'} Don’t use Overlap for anything sensitive.`)),
 
     section('Source',
-      h('p', null, 'Overlap is a small, independent app inspired by the open-source scheduler Timeful. It shares no code with Timeful.')),
+      h('p', null, 'Overlap is a small, independent, open-source app (MIT License) by Micropeptide: ',
+        h('a', { href: 'https://github.com/Micropeptide/Overlap', target: '_blank', rel: 'noopener' }, 'github.com/Micropeptide/Overlap'),
+        '. It was inspired by the open-source scheduler Timeful, but shares no code with it.')),
   ));
 }
