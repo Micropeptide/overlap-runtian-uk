@@ -6,6 +6,7 @@ import { renderHome } from './views/home.js';
 import { renderGuest } from './views/guest.js';
 import { renderManage } from './views/manage.js';
 import { renderPrivacy } from './views/privacy.js';
+import { renderAbout } from './views/about.js';
 import { renderNotFound } from './views/not-found.js';
 
 const routes = [
@@ -13,6 +14,7 @@ const routes = [
   [/^\/p\/([a-z0-9]+)\/?$/, renderGuest],
   [/^\/m\/([a-z0-9]+)\/?$/, renderManage],
   [/^\/privacy\/?$/, renderPrivacy],
+  [/^\/about\/?$/, renderAbout],
 ];
 
 const main = document.getElementById('main');
