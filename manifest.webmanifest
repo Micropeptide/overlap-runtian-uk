@@ -1,0 +1,10 @@
+{
+  "name": "Overlap",
+  "short_name": "Overlap",
+  "description": "Free group scheduling with no accounts.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f1f4f3",
+  "theme_color": "#0e5a6b",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
